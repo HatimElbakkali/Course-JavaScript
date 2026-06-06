@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap"
+        rel="stylesheet" />
+    <title>Fonts Project</title>
+</head>
+<style>
+    body {
+        font-family: "Open Sans", sans-serif;
+        color: red;
+        font-size: 16px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        margin-top: 100px;
+    }
+
+    .controls {
+        display: flex;
+        gap: 15px;
+    }
+
+    select {
+        padding: 10px;
+        width: 120px;
+    }
+
+    .text {
+        transition: 0.3s;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div class="controls">
+        <select id="fonts">
+            <option value="Open Sans">Open</option>
+            <option value="Cairo">Cairo</option>
+            <option value="Roboto">Roboto</option>
+        </select>
+
+        <select id="colors">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option>
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+        </select>
+
+        <select id="sizes">
+            <option value="16px">16</option>
+            <option value="17px">17</option>
+            <option value="18px">18</option>
+            <option value="19px">19</option>
+            <option value="20px">20</option>
+            <option value="21px">21</option>
+            <option value="22px">22</option>
+            <option value="23px">23</option>
+            <option value="24px">24</option>
+            <option value="25px">25</option>
+            <option value="26px">26</option>
+            <option value="27px">27</option>
+            <option value="28px">28</option>
+            <option value="29px">29</option>
+            <option value="30px">30</option>
+        </select>
+    </div>
+    <p class="text">Hello World</p>
+
+    <!-- 2- -->
+    
+    <form class="form">
+    
+        <!-- Input 1 -->
+        <input type="text" id="name" placeholder="Enter your name">
+    
+        <!-- Input 2 -->
+        <input type="email" id="email" placeholder="Enter your email">
+    
+        <!-- Input 3 -->
+        <input type="number" id="age" placeholder="Enter your age">
+    
+        <!-- Select Box -->
+        <select id="skills">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="react">React</option>
+            <option value="node">Node.js</option>
+        </select>
+    
+    </form>
+    <script src="70_Assigments Local.js"></script>
+</body>
+
+</html>

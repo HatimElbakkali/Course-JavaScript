@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author": "hatim",
+    "category": "science",
+    "title": "Mecanique",
+    "content": "Mecanique 5ayba"
+  },
+  {
+    "id": 2,
+    "author": "bochra",
+    "category": "cooking",
+    "title": "Tajin",
+    "content": "Tajin is the delicious food"
+  },
+  {
+    "id": 300,
+    "author": "Rachid",
+    "category": "Ecomerce",
+    "title": "khlayl",
+    "content": "5layl m9tola bi3ochra"
+  },
+  {
+    "id": 400,
+    "author": "radiya",
+    "category": "familis",
+    "title": "marriage",
+    "content": "mb9awchi rjal"
+  },
+  {
+    "id": 99,
+    "author": "iman",
+    "category": "school",
+    "title": "children",
+    "content": "7am9oni l3yal"
+  }
+]
